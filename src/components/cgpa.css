@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Input Group Styles */
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .small-input {
+    width: 40%;
+    min-width: 100px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+  }
+  
+  /* Button Row */
+  .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button.delete-btn {
+    background-color: #f44336;
+    padding: 5px 10px;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #e53935;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .input-group {
+      flex-wrap: wrap;
+    }
+  
+    .small-input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
+  /* Calculated Results */
+  .result {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
