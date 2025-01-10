@@ -131,7 +131,8 @@ const App = () => {
         bottom: '0',
         width: '100%',
       }}>
-        <p>Made by Murtyy Mohan</p>
+        <p>Made by D.Rahim</p>
+          <p>LPU Student</p>
         <div>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: 'white' }}>
             Facebook
