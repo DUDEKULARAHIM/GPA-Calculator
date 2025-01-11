@@ -195,4 +195,4 @@ const CGPA = () => {
   );
 };
 
-export default CGPA;
+export default CGP;
