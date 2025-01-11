@@ -107,4 +107,4 @@ const TGPA = () => {
   );
 };
 
-export default TGPA;
+export default TGP;
