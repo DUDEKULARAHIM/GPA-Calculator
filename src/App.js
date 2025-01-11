@@ -110,13 +110,13 @@ const App = () => {
           {activeView === 'tgpa' && (
             <div>
               <h2>Calculate TGPA</h2>
-              //<TGPA />
+           <TGPA />
             </div>
           )}
           {activeView === 'cgpa' && (
             <div>
               <h2>Calculate CGPA</h2>
-             // <CGPA />
+             <CGPA />
             </div>
           )}
         </div>
