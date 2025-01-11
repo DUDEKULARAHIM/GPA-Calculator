@@ -57,31 +57,31 @@ const App = () => {
           {activeView === null && (
             <>
               <button
-                onClick={showTGPA}
-                style={{
-                  margin: "10px",
+               onClick={showTGPA}
+               style={{
+                 margin: "10px",
                   padding: "10px 20px",
                   fontSize: "16px",
                   backgroundColor: "#4caf50",
-                  color: "#fff",
-                  border: "none",
-                  borderRadius: "4px",
-                  cursor: "pointer",
-                }}
+                color: "#fff",
+                border: "none",
+                 borderRadius: "4px",
+                cursor: "pointer",
+               }}
               >
-                Calculate TGPA
+               Calculate TGPA
               </button>
-              <button
-                onClick={showCGPA}
-                style={{
-                  margin: "10px",
-                  padding: "10px 20px",
-                  fontSize: "16px",
-                  backgroundColor: "#2196f3",
-                  color: "#fff",
-                  border: "none",
-                  borderRadius: "4px",
-                  cursor: "pointer",
+             <button
+               onClick={showCGPA}
+               style={{
+                 margin: "10px",
+                 padding: "10px 20px",
+                 fontSize: "16px",
+                backgroundColor: "#2196f3",
+                color: "#fff",
+                border: "none",
+                 borderRadius: "4px",
+                 cursor: "pointer",
                 }}
               >
                 Calculate CGPA
@@ -110,13 +110,13 @@ const App = () => {
           {activeView === 'tgpa' && (
             <div>
               <h2>Calculate TGPA</h2>
-              <TGPA />
+              //<TGPA />
             </div>
           )}
           {activeView === 'cgpa' && (
             <div>
               <h2>Calculate CGPA</h2>
-              <CGPA />
+             // <CGPA />
             </div>
           )}
         </div>
