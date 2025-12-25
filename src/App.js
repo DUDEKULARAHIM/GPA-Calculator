@@ -224,8 +224,10 @@ const App = () => {
                 <input
                   key={index}
                   ref={(el) => (inputsRef.current[index] = el)}
-                  type="text"
-                  maxLength="1"
+                  type="tel"                 // 📱 mobile numeric keypad
+  inputMode="numeric"        // ✅ forces numbers
+  pattern="[0-9]*"           // ✅ restricts digits
+  maxLength="1"
                   value={digit}
                   onChange={(e) => handleChange(e.target.value, index)}
                   onKeyDown={(e) => handleKeyDown(e, index)}
